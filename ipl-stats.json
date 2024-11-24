@@ -3,61 +3,325 @@
     "season": 2023,
     "stats": {
       "orangeCap": [
-        { "player": "Player A", "runs": 750 },
-        { "player": "Player B", "runs": 700 },
-        { "player": "Player C", "runs": 680 },
-        { "player": "Player D", "runs": 650 },
-        { "player": "Player E", "runs": 630 },
-        { "player": "Player F", "runs": 600 },
-        { "player": "Player G", "runs": 580 },
-        { "player": "Player H", "runs": 560 },
-        { "player": "Player I", "runs": 540 },
-        { "player": "Player J", "runs": 520 }
+        { "player": "KL Rahul", "team": "Team A", "value": 890, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 840, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 810, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 780, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 760, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 740, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 700, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 680, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 650, "season": 2023 }
       ],
-      "mostFours": [],
-      "mostSixes": [],
-      "mostCenturies": [],
-      "mostFifties": []
+      "mostFours": [
+        { "player": "KL Rahul", "team": "Team A", "value": 809, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 340, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 710, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 170, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 786, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 874, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 760, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 480, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 750, "season": 2023 }
+      ],
+      "mostSixes": [
+        { "player": "KL Rahul", "team": "Team A", "value": 90, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 0, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 80, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 7, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 20, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 0, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 80, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 60, "season": 2023 }
+      ],
+      "mostCenturies": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ],
+      "mostFifties": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ]
     }
   },
   {
     "season": 2022,
     "stats": {
-      "orangeCap": [],
-      "mostFours": [],
-      "mostSixes": [],
-      "mostCenturies": [],
-      "mostFifties": []
+      "orangeCap": [
+        { "player": "KL Rahul", "team": "Team A", "value": 890, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 840, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 810, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 780, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 760, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 740, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 700, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 680, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 650, "season": 2023 }
+      ],
+      "mostFours": [
+        { "player": "KL Rahul", "team": "Team A", "value": 809, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 340, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 710, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 170, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 786, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 874, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 760, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 480, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 750, "season": 2023 }
+      ],
+      "mostSixes": [
+        { "player": "KL Rahul", "team": "Team A", "value": 90, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 0, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 80, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 7, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 20, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 0, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 80, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 60, "season": 2023 }
+      ],
+      "mostCenturies": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ],
+      "mostFifties": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ]
     }
   },
   {
     "season": 2021,
     "stats": {
-      "orangeCap": [],
-      "mostFours": [],
-      "mostSixes": [],
-      "mostCenturies": [],
-      "mostFifties": []
+      "orangeCap": [
+        { "player": "KL Rahul", "team": "Team A", "value": 890, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 840, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 810, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 780, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 760, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 740, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 700, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 680, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 650, "season": 2023 }
+      ],
+      "mostFours": [
+        { "player": "KL Rahul", "team": "Team A", "value": 809, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 340, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 710, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 170, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 786, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 874, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 760, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 480, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 750, "season": 2023 }
+      ],
+      "mostSixes": [
+        { "player": "KL Rahul", "team": "Team A", "value": 90, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 0, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 80, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 7, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 20, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 0, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 80, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 60, "season": 2023 }
+      ],
+      "mostCenturies": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ],
+      "mostFifties": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ]
     }
   },
   {
     "season": 2020,
     "stats": {
-      "orangeCap": [],
-      "mostFours": [],
-      "mostSixes": [],
-      "mostCenturies": [],
-      "mostFifties": []
+      "orangeCap": [
+        { "player": "KL Rahul", "team": "Team A", "value": 890, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 840, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 810, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 780, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 760, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 740, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 700, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 680, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 650, "season": 2023 }
+      ],
+      "mostFours": [
+        { "player": "KL Rahul", "team": "Team A", "value": 809, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 340, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 710, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 170, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 786, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 874, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 760, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 480, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 750, "season": 2023 }
+      ],
+      "mostSixes": [
+        { "player": "KL Rahul", "team": "Team A", "value": 90, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 0, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 80, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 7, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 20, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 0, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 80, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 60, "season": 2023 }
+      ],
+      "mostCenturies": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ],
+      "mostFifties": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ]
     }
   },
   {
     "season": 2019,
     "stats": {
-      "orangeCap": [],
-      "mostFours": [],
-      "mostSixes": [],
-      "mostCenturies": [],
-      "mostFifties": []
+      "orangeCap": [
+        { "player": "KL Rahul", "team": "Team A", "value": 890, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 840, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 810, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 780, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 760, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 740, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 700, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 680, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 650, "season": 2023 }
+      ],
+      "mostFours": [
+        { "player": "KL Rahul", "team": "Team A", "value": 809, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 340, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 710, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 170, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 786, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 874, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 720, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 760, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 480, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 750, "season": 2023 }
+      ],
+      "mostSixes": [
+        { "player": "KL Rahul", "team": "Team A", "value": 90, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 0, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 80, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 7, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 20, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 0, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 80, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 60, "season": 2023 }
+      ],
+      "mostCenturies": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ],
+      "mostFifties": [
+        { "player": "KL Rahul", "team": "Team A", "value": 89, "season": 2023 },
+        { "player": "Shubman Gill", "team": "Team B", "value": 40, "season": 2023 },
+        { "player": "Faf du Plessis", "team": "Team C", "value": 10, "season": 2023 },
+        { "player": "David Warner", "team": "Team D", "value": 70, "season": 2023 },
+        { "player": "Ruturaj Gaikwad", "team": "Team E", "value": 60, "season": 2023 },
+        { "player": "Prithvi Shaw", "team": "Team F", "value": 40, "season": 2023 },
+        { "player": "Ishan Kishan", "team": "Team G", "value": 70, "season": 2023 },
+        { "player": "Rishabh Pant", "team": "Team H", "value": 50, "season": 2023 },
+        { "player": "Devdutt Padikkal", "team": "Team I", "value": 60, "season": 2023 },
+        { "player": "Venkatesh Iyer", "team": "Team J", "value": 6, "season": 2023 }
+      ]
     }
   }
 ]
