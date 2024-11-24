@@ -1,0 +1,64 @@
+[
+  {
+    "season": 2023,
+    "stats": {
+      "orangeCap": [
+        { "player": "Player A", "runs": 750 },
+        { "player": "Player B", "runs": 700 },
+        { "player": "Player C", "runs": 680 },
+        { "player": "Player D", "runs": 650 },
+        { "player": "Player E", "runs": 630 },
+        { "player": "Player F", "runs": 600 },
+        { "player": "Player G", "runs": 580 },
+        { "player": "Player H", "runs": 560 },
+        { "player": "Player I", "runs": 540 },
+        { "player": "Player J", "runs": 520 }
+      ],
+      "mostFours": [],
+      "mostSixes": [],
+      "mostCenturies": [],
+      "mostFifties": []
+    }
+  },
+  {
+    "season": 2022,
+    "stats": {
+      "orangeCap": [],
+      "mostFours": [],
+      "mostSixes": [],
+      "mostCenturies": [],
+      "mostFifties": []
+    }
+  },
+  {
+    "season": 2021,
+    "stats": {
+      "orangeCap": [],
+      "mostFours": [],
+      "mostSixes": [],
+      "mostCenturies": [],
+      "mostFifties": []
+    }
+  },
+  {
+    "season": 2020,
+    "stats": {
+      "orangeCap": [],
+      "mostFours": [],
+      "mostSixes": [],
+      "mostCenturies": [],
+      "mostFifties": []
+    }
+  },
+  {
+    "season": 2019,
+    "stats": {
+      "orangeCap": [],
+      "mostFours": [],
+      "mostSixes": [],
+      "mostCenturies": [],
+      "mostFifties": []
+    }
+  }
+]
+

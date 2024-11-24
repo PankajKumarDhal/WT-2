@@ -1,0 +1,19 @@
+{
+  "name": "ipl-data-visualization",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chart.js": "^4.4.6",
+    "express": "^4.21.1",
+    "ipl-data-visualization": "file:",
+    "puppeteer": "^23.9.0"
+  }
+}
